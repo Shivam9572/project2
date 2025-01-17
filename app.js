@@ -8,7 +8,7 @@ let btn_start=document.getElementById("start");
 btn_start.addEventListener("click",function(){
     if(game==false)
     {
-        console.log("game started");
+        console.log("game started!");
         game=true;
     }
     levelup();
